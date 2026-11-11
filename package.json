@@ -1,0 +1,10 @@
+{
+  "name": "examseat",
+  "version": "2.0.0",
+  "description": "ExamSeat: Smart Exam Seating & Attendance System",
+  "private": true,
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": { "express": "^4.21.2", "mssql": "^11.0.1" }
+}
